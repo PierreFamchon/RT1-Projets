@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-06-07" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3240" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#0099ff #66cc00 #0099cc #cc3300 #99cc00 #ff9933 #cc9900 #ffcc00 #ffff00 #009933]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Durée de la Saé 2.01/2.04" color="#ffff00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2024-06-11" duration="8" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Organisation du projet" color="#ffff00" meeting="false" start="2024-06-11" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Schéma draw.io" color="#ffff00" meeting="false" start="2024-06-11" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Création de la Matrice RACI et du Diagramme de Gantt" color="#ffff00" meeting="false" start="2024-06-11" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Configuration Routeurs,Switch" color="#ff9933" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2024-06-12" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="WIFI et DHCP" color="#ff9933" meeting="false" start="2024-06-13" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="false"/>
+        <task id="6" name="Windows Serveur" color="#ff9933" meeting="false" start="2024-06-13" duration="2" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Docker-TFTP" color="#cc3300" meeting="false" start="2024-06-13" duration="2" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="false"/>
+        <task id="8" name="Docker-BDD et Web" color="#cc3300" meeting="false" start="2024-06-14" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Application pour les commerciaux" color="#cc3300" meeting="false" start="2024-06-14" duration="1" complete="0" thirdDate="2024-06-07" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Téléphonie" color="#0099cc" meeting="false" start="2024-06-17" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Programmation" color="#0099cc" meeting="false" start="2024-06-17" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Caméra IP" color="#0099cc" meeting="false" start="2024-06-18" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Faire une étude mathématique à partir de la caméra IP" color="#0099cc" meeting="false" start="2024-06-18" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="Plaquette : sonde de tem" color="#0099ff" meeting="false" start="2024-06-19" duration="1" complete="0" thirdDate="2024-06-11" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Communication par téléphone en Anglais" color="#66cc00" meeting="false" start="2024-06-19" duration="1" complete="0" thirdDate="2024-06-07" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="Rédiger le rapport final" color="#99cc00" meeting="false" start="2024-06-19" duration="2" complete="0" thirdDate="2024-06-07" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Répondre au Quizz Moodle" color="#99cc00" meeting="false" start="2024-06-20" duration="1" complete="0" thirdDate="2024-06-07" thirdDate-constraint="0" expand="true"/>
+        <task id="20" name="Ranger le matériel" color="#99cc00" meeting="false" start="2024-06-20" duration="1" complete="0" thirdDate="2024-06-07" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="Répondre au questions de la soutenance" color="#99cc00" meeting="false" start="2024-06-20" duration="1" complete="0" thirdDate="2024-06-07" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

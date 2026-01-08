@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Pierre Famchon CV</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/salam.png') }}" />
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+</head>
+<body id="page-top">
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Pierre Famchon</span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ url_for('static', filename='assets/test5.jpg') }}" alt="..." /></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Présentation</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Expérience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Formation</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Compétence</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#project">Projets</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Intérets</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Diplome</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#credit">Crédit</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Contenue de la page-->
+<div class="container-fluid p-0">
+
+    <!-- Présentation-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                Pierre
+                <span class="text-primary">Famchon</span>
+            </h1>
+            <div class="subheading mb-5">
+                · 161 Rue Du Moulin à Tabac, 6B Résidence le Renoir · 62400 · Béthune
+                <a href="mailto:name@email.com">pierre_famchon1@ens.univ-artois.fr</a>
+            </div>
+            <p class="lead mb-5">Je m'appelle Pierre Famchon, j'ai 19 ans je suis étudiant en première année en Réseau et Télécom à l'IUT de Béthune.</p>
+            <div class="social-icons">
+                <a class="social-icon" href="https://www.linkedin.com/in/pierre-famchon-796b91258/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social-icon" href="https://github.com/SneaX667"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div style="padding-left: 500px;">
+        <a href="{{ url_for('static', filename='assets/CV Pierre Famchon.pdf') }}">Lien pdf du CV</a>.
+    </div>
+
+
+    <hr class="m-0" />
+
+    <!-- Expérience-->
+    <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Expérience</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Travaux Saisonniers</h3>
+                    <div class="subheading mb-3">Champs, Maraichage</div>
+                    <p>J'ai été chef de rang dans un champ de maïs, chargé d'encadrer l'équipe chargée de la castration des maïs. Plus tard, j'ai travaillé dans un maraîchage où j'étais chargé de diverses tâches (effeuillage des tomates, récolte des fraises, framboises, tomates…).</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Juillet 2021 - Aout 2021</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <div class="subheading mb-3">Grande distribution, Boutique</div>
+                    <p>J'ai travaillé dans une boutique en tant que gérant : je m'occupais de la caisse, des clients, de la remise en rayon et de la fermeture et de l'ouverture. Ensuite, j'ai travaillé dans le domaine de la grande distribution chez Leclerc lors des vacances de Noël pour assister le rayon traiteur dans diverses tâches (ouverture du magasin, déchargement des palettes depuis le camion, tri des palettes, remise en rayon).</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Juillet 2021 - Aout 2021 | Décembre 2022</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Travaux Manuelles</h3>
+                    <div class="subheading mb-3">Entretiens, Rénovation</div>
+                    <p>J'ai effectué des travaux de rénovation et d'entretien durant mes vacances et mes week-ends : peinture, ponçage, enduit, ciment, élagage, bûcheronnage, etc.</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Septembre 2018 - Juin 2022</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Babysitting</h3>
+                    <div class="subheading mb-3">Garde d'enfant, et d'enfant handicappé</div>
+                    <p>Pendant mes vacances scolaires, j'ai pris en charge un jeune adolescent handicapé, ainsi que des enfants en soirée.</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Septembre 2019 - Aout 2022</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+
+    <!-- Formation-->
+    <section class="resume-section" id="education">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Formation</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Institution Saint Joseph du Moncel</h3>
+                    <div class="subheading mb-3">Collège et Lycée</div>
+                    <div></div>
+                    <p></p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Septembre 2015 - Juin 2022</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">Université de Béthune - IUT Réseau et Télécommunication</h3>
+                    <div class="subheading mb-3">Bachelor Réseauu et Télécommunication</div>
+                    <p></p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">Septembre 2022 - Aujourd'hui</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0" />
+
+    
+
+    <!-- Compétence-->
+    <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Compétence</h2>
+            <div class="subheading mb-3">Language de Programmation</div>
+            <ul class="list-inline dev-icons">
+                <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            </ul>
+            <div class="subheading mb-3">Atouts</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Sociable
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Motivé
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Organisé
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Souple, Capacité d'Adaptation
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<title>Tableaux</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    /* Pour centrer le contenu du tableau */
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Ajouter un espace entre le bloc_nom et le tableau */
+    h2 {
+        margin-bottom: 10px;
+        text-align: center; /* Pour centrer le texte */
+    }
+
+    /* Ajouter un espace entre chaque tableau */
+    h2:not(:last-child) {
+        margin-bottom: 40px;
+    }
+</style>
+</head>
+
+<body>
+{% for bloc_nom, competences in tableaux.items() %}
+    <h2>{{ bloc_nom }}</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Compétence</th>
+                <th>Niveau d'acquisition</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for competence_nom, niveau_nom in competences %}
+                <tr>
+                    <td>{{ competence_nom }}</td>
+                    <td>{{ niveau_nom }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endfor %}
+
+<a href="/ajouter_competence">
+    <button>Ajouter une compétence</button>
+</a>
+<a href="/supprimer_competence">
+    <button>Supprimer une compétence</button>
+</a>
+
+<a href="/modifier_competence">
+    <button>Modifier une compétence</button>
+</a>
+
+<style></style>
+<hr class="m-0" />
+
+<!-- Projets-->
+<section class="resume-section" id="project">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Projets</h2>
+
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">Projets Jeux-Vidéo Pygame</h3>
+                <div class="subheading mb-3">Présentation</div>
+                <a href="https://github.com/SneaX667">Lien vers mon Github et vers le projet</a>
+                <p>J'ai travaillé sur un projet de jeu vidéo codé en Python à l'aide de PyCharm avec le module Pygame. J'ai cherché à créer un jeu vidéo dans le style d'un jeu de combat, où un joueur affronte un boss ou un autre joueur. L'inspiration pour ce projet vient du thème rétro et de la célèbre licence japonaise Dragon Ball. Cette réalisation a nécessité environ 2 semaines de travail, totalisant environ 120 heures, couvrant divers aspects tels que la recherche, la réflexion, les animations, les déplacements et le remixage des musiques.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 70px">
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <div class="subheading mb-3">Réalisation</div>
+                    <p>J'ai réalisé ce projet seul dans le but de reproduire l'un des célèbres jeux de combat de type arcade rétro sur le thème de Dragon Ball. Pour ce faire, j'ai élaboré un plan complet de conception et de développement du projet, comprenant les étapes suivantes :
+
+                    -   Rassembler les différents sprites nécessaires au jeu, que ce soit pour les personnages, les décors, les attaques, etc.<br>
+                    -   Rassembler les différentes musiques, que ce soit pour la musique de fond, les attaques, les dégâts, etc.<br>
+                    -   Ajuster les différents sprites en fonction de l'affichage du jeu et remixer les musiques et les sons pour les adapter à PyCharm.<br>
+                    -   Procéder à l'affichage statique correct du jeu.<br>
+                    -   Passer ensuite à la phase dynamique avec des sprites animés pouvant être déplacés en temps réel par un joueur ou un programme.<br>
+                    -   Enfin, la partie la plus longue, regroupant tous les ajustements tels que la résolution de bugs, les optimisations, l'ajout de nouvelles fonctionnalités, etc.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: -320px; padding-left: 1200px;">
+            <img src="{{ url_for('static', filename='assets/Jeux_vidéo.png') }}"  width="600px" height="290px"/>
+        </div>
+
+        <div style="margin-top: 150px; padding-left: 750px;">
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <div class="subheading mb-3">Conclusion</div>
+                    <p>Ce projet, qui est mon plus grand projet mené jusqu'à présent en termes de temps, 
+                    de travail, de qualité et de difficulté, a également été celui qui a été le plus enrichissant. 
+                    Que ce soit en termes d'apprentissage ou d'épanouissement, c'est un projet qui m'a véritablement motivé.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="margin-top: -330px; padding-left: 10px;">
+            <img src="{{ url_for('static', filename='assets/Jeux_vidéo1.png') }}" width="600px" height="300px"/>
+        </div>
+
+    </div>
+</section>
+<hr class="m-0" />
+
+<!-- Intérets-->
+<section class="resume-section" id="interests">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Intérets</h2>
+        <div class="subheading mb-3">Sport</div>
+        <p>
+            -   Natation en club, participation à des compétitions régionales (depuis l’âge de 7 ans)</br>
+            -   Boxe</br>
+            -   Musculation</br>
+
+        </p>
+        <div class="subheading mb-3">Loisir</div>
+        <p>
+            -   Scoutisme pendant 6 années</br>
+            -   Lecture (polar, littérature classique)</br>
+        </p>
+    </div>
+</section>
+<hr class="m-0" />
+
+<!-- Diplome-->
+<section class="resume-section" id="awards">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Diplome</h2>
+        <ul class="fa-ul mb-0">
+            <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                Brevet des Collèges
+            </li>
+            <li>
+                <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                Baccalauréat Général 
+            </li>
+        </ul>
+    </div>
+</section>
+<hr class="m-0" />
+
+<!-- Crédit-->
+<section class="resume-section" id="credit">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Crédit</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <p>© 2024 Pierre Famchon</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Ajouter une compétence</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 20px;
+       }
+
+
+       h1 {
+           text-align: center;
+       }
+
+
+       form {
+           max-width: 400px;
+           margin: 20px auto;
+           padding: 20px;
+           background-color: #f5f5f5;
+           border: 1px solid #ccc;
+           border-radius: 5px;
+       }
+
+
+       label {
+           display: block;
+           margin-bottom: 10px;
+       }
+
+
+       input[type="text"] {
+           width: 100%;
+           padding: 5px;
+           font-size: 16px;
+           border: 1px solid #ccc;
+           border-radius: 3px;
+       }
+
+
+       select {
+           width: 100%;
+           padding: 5px;
+           font-size: 16px;
+           border: 1px solid #ccc;
+           border-radius: 3px;
+           margin-bottom: 20px;
+       }
+
+
+       input[type="submit"] {
+           width: 100%;
+           padding: 10px;
+           font-size: 16px;
+           background-color: #4caf50;
+           color: #fff;
+           border: none;
+           border-radius: 3px;
+           cursor: pointer;
+       }
+
+
+       input[type="submit"]:hover {
+           background-color: #45a049;
+       }
+   </style>
+</head>
+<body>
+    <h1>Modifier une compétence</h1>
+    <form action="{{ url_for('modifier_competence') }}" method="post">
+        <label for="competence_id">ID de la compétence:</label>
+        <input type="text" name="competence_id" id="competence_id" required>
+
+        <label for="nom_competence">Nom de la compétence:</label>
+        <input type="text" name="nom_competence" id="nom_competence" required>
+
+        <label for="nouveau_niveau">Nouveau niveau d'acquisition:</label>
+        <select name="nouveau_niveau" id="nouveau_niveau" required>
+            <option value="Non acquis">Non acquis</option>
+            <option value="En cours d’acquisition">En cours d’acquisition</option>
+            <option value="Acquis">Acquis</option>
+        </select>
+
+        <input type="submit" value="Modifier">
+    </form>
+</body>
+</html>

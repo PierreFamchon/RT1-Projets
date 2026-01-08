@@ -1,0 +1,83 @@
+﻿Creil-Society
+#La tabulation est le séparateur de champs
+
+
+#Mardi
+#Date                 Heure          Qui            Lieu           Objet
+11/06/23            13:00            BD            J009           Structure des données et recherche            
+11/06/23            13:00            PF            J009           Matrice RACI
+11/06/23            13:00            MB            J009           Montage Infrastructure Réseau
+11/06/23            13:00            NE            J009           Gantt
+            
+
+
+#Mercredi
+#Date                 Heure          Qui            Lieu           Objet
+20/06/23            08:00            BD            J001           Configuration du Switch
+20/06/23            08:00            PF            J001           Organisation du projet
+20/06/23            08:00            MB            J001           Câblage
+20/06/23            08:00            NE            J001           Câblage
+
+
+20/06/23            10:00            BD            J001           Configuration du Routeur
+20/06/23            10:00            PF            J001           Configuration du Routeur
+20/06/23            10:00            MB            J001           Câblage
+20/06/23            10:00            NE            J001           Configuration du Routeur
+
+
+20/06/23            13:00            BD            J001           Configuration du Routeur
+20/06/23            13:00            PF            J001           DHCP, DNS
+20/06/23            13:00            MB            J001           Windows-serveur
+20/06/23            13:00            NE            J001           DHCP, DNS
+
+
+20/06/23            15:00            BD            J001           Nat
+20/06/23            15:00            PF            J001           Journal de bord, Organisation
+20/06/23            15:00            MB            J001           Windows-serveur
+20/06/23            15:00            NE            J001           Nat
+
+
+#Jeudi
+#Date                 Heure          Qui            Lieu           Objet
+21/06/23            08:00            BD            J001           Téléphone
+21/06/23            08:00            PF            J001           Téléphone
+21/06/23            08:00            MB            J001           Windows-serveur
+21/06/23            08:00            NE            J001           Docker BDD et web
+
+
+21/06/23            10:00            BD            J001           WIFI
+21/06/23            10:00            PF            J001           Aide Windows-serveur
+21/06/23            10:00            MB            J001           Windows-serveur
+21/06/23            10:00            NE            J001           Docker BDD et web
+
+
+21/06/23            13:00            BD            J001           Télécommunication
+21/06/23            13:00            PF            J001           Programmation
+21/06/23            13:00            MB            J001           Télécommunication
+21/06/23            13:00            NE            J001           Docker BDD et web
+
+
+21/06/23            15:00            BD            J001           Télécommunication
+21/06/23            15:00            PF            J001           Programmation
+21/06/23            15:00            MB            J001           Télécommunication
+21/06/23            15:00            NE            J001           Docker BDD et web
+
+
+#Vendredi
+#Date                 Heure          Qui            Lieu           Objet
+22/06/23            08:00            BD            J001           Windows-serveur
+22/06/23            08:00            PF            J001           Programmation
+22/06/23            08:00            MB            J001           Windows-serveur
+22/06/23            08:00            NE            J001           Docker BDD et web
+
+
+22/06/23            10:00            BD            J001           Prioriser les communications
+22/06/23            10:00            PF            J001           Programmation
+22/06/23            10:00            MB            J001           Windows-serveur
+22/06/23            10:00            NE            J001           Docker BDD et web
+
+
+22/06/23            13:00            BD            J001           ACL
+22/06/23            13:00            PF            J001           ACL
+22/06/23            13:00            MB            J001           Windows-serveur
+22/06/23            13:00            NE            J001           Docker BDD et web

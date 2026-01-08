@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5001:5000"  # Modifier le mapping de port ici
+    volumes:
+      - .:/web
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=development
+      - DATABASE_URL=mysql+pymysql://admin:progtr00@db/asae23
+      - DB_USER=admin
+      - DB_PASS=progtr00
+      - DB_HOST=db
+      - DB_NAME=asae23
+
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=progtr00
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=progtr00
+      - MYSQL_DATABASE=asae23
+    ports:
+      - "3306:3306"
+
